@@ -371,17 +371,6 @@ Resources and inspiration for this project:
 
 ---
 
-<div align="center">
-
-### 📊 Project Statistics
-
-![Contributors](https://img.shields.io/github/contributors/nirmitkhurana/DatabricksProject?style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/nirmitkhurana/DatabricksProject?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/nirmitkhurana/DatabricksProject?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/nirmitkhurana/DatabricksProject?style=for-the-badge)
-![License](https://img.shields.io/github/license/nirmitkhurana/DatabricksProject?style=for-the-badge)
-
-</div>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0077B5

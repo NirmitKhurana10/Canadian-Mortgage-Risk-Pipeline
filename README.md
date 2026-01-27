@@ -365,7 +365,6 @@ Resources and inspiration for this project:
 * [Apache Spark SQL Guide](https://spark.apache.org/sql/)
 * [Canadian Mortgage Market Analysis](https://www.bankofcanada.ca/)
 * [Best Practices for Data Lake Architecture](https://docs.databricks.com/lakehouse/index.html)
-* [Financial Risk Modeling with Big Data](https://www.coursera.org/learn/financial-engineering-risk-management)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

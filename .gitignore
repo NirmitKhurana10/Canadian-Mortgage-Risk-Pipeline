@@ -1,0 +1,34 @@
+# Dataset files (too large for GitHub)
+dataset/*.csv
+dataset/*.txt
+dataset/*.parquet
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Databricks
+.databricks/
+*.dbc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log

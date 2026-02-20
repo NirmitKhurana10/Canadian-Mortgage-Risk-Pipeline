@@ -88,7 +88,6 @@ Build a data pipeline to:
 This project leverages cutting-edge data engineering technologies:
 
 * ![Databricks][Databricks-badge]
-* ![Apache Spark][Spark-badge]
 * ![Delta Lake][DeltaLake-badge]
 * ![SQL][SQL-badge]
 * ![Python][Python-badge]
@@ -126,14 +125,12 @@ graph LR
 **Key Operations:**
 ```sql
 -- Example: Raw data ingestion with schema inference
-CREATE TABLE bronze_loan_data
-USING DELTA
-OPTIONS (
-  header = "true",
-  delimiter = "|",
-  inferSchema = "true"
-)
-AS SELECT * FROM csv.`/path/to/raw/data/`
+load data local infile '/Users/nirmitkhurana/Desktop/Nirmit Docs/Projects/SQL/Data-warehouse-project/dataset/mortgage_data_sample.csv'
+into table fannie_mae_bronze.loan_performance_2021_q2
+fields terminated by '|'
+lines terminated by '\n'
+ignore 1 lines;
+
 ```
 
 #### 🥈 Silver Layer (Transformation & Enrichment)
@@ -231,7 +228,7 @@ Follow these steps to set up the project locally.
    * Download Fannie Mae Single-Family Loan Performance data
    * [Fannie Mae Data Download](https://capitalmarkets.fanniemae.com/credit-risk-transfer/single-family-credit-risk-transfer/fannie-mae-single-family-loan-performance-data)
    
-### Installation
+### Installation (work in progress)
 
 1. **Clone the repository**
    ```sh
@@ -242,6 +239,7 @@ Follow these steps to set up the project locally.
    - Navigate to your Databricks workspace
    - Import the notebook files from `/notebooks`
    - Upload raw data files to DBFS (Databricks File System)
+
 
 3. **Configure Data Paths**
    - Update notebook variables to point to your DBFS data location
@@ -347,7 +345,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nirmitkhurana)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nirmitkhurana)
 
-**Project Link:** [https://github.com/nirmitkhurana/DatabricksProject](https://github.com/nirmitkhurana/DatabricksProject)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

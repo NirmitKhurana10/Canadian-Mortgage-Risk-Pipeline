@@ -304,7 +304,7 @@ The Gold layer enables business users to visualize:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
-## Roadmap
+## Roadmap and Proposed Features
 
 - [x] Implement Bronze layer (raw ingestion)
 - [x] Implement Silver layer (transformation)
@@ -316,7 +316,6 @@ The Gold layer enables business users to visualize:
 - [ ] Add data quality monitoring alerts
 - [ ] Expand to multi-country mortgage models
 
-See the [open issues](https://github.com/nirmitkhurana/DatabricksProject/issues) for a full list of proposed features and known issues.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -17,8 +17,6 @@
     <br />
     <a href="#usage">View Demo</a>
     ·
-    <a href="[https://github.com/nirmitkhurana/DatabricksProject/issues](https://github.com/NirmitKhurana10/Canadian-Mortgage-Risk-Pipeline/pulls)">Report Bug</a>
-    ·
     <a href="[https://github.com/nirmitkhurana/DatabricksProject/issues](https://github.com/NirmitKhurana10/Canadian-Mortgage-Risk-Pipeline/pulls)">Request Feature</a>
   </p>
 </div>

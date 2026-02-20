@@ -6,7 +6,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h1 align="center">🏦 NorthRisk 2026</h1>
+  <h1 align="center">🏦Canadian Mortgage Risk Pipeline</h1>
   <h3 align="center">Mortgage Renewal Stress Tester</h3>
 
   <p align="center">

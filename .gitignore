@@ -1,5 +1,6 @@
 # Dataset files (too large for GitHub)
 dataset/*.csv
+dataset/*.xlsx
 dataset/*.txt
 dataset/*.parquet
 

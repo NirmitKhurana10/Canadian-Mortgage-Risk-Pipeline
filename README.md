@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-[![LinkedIn][linkedin-shield]][[linkedin-url](https://www.linkedin.com/in/nirmit-khurana-3852841a6/)]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nirmit-khurana-3852841a6/)
 
 <!-- PROJECT LOGO -->
 <br />
